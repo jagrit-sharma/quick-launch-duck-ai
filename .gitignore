@@ -1,0 +1,9 @@
+# Packaged builds
+*.zip
+*.xpi
+
+# OS files
+.DS_Store
+
+# Editor files
+.vscode/
