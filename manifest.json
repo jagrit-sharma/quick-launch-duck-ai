@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Quick Launch: Duck.ai",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "I just wanted a simple toolbar button for my browser that opens Duck.ai in a new tab, so I vibe-coded this extension. It's an unofficial project — not affiliated with or endorsed by DuckDuckGo.",
   "author": "Jagrit Sharma",
   "icons": {
