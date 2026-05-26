@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Quick Launch: Duck.ai",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "I just wanted a simple toolbar button for my browser that opens Duck.ai in a new tab, so I vibe-coded this extension. It's an unofficial project — not affiliated with or endorsed by DuckDuckGo.",
   "author": "Jagrit Sharma",
   "icons": {
@@ -13,13 +13,17 @@
     "default_icon": "icon.svg"
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
   "browser_specific_settings": {
     "gecko": {
       "id": "duck-ai-button@jagritsharma",
       "data_collection_permissions": {
-        "required": ["none"]
+        "required": [
+          "none"
+        ]
       }
     }
   }
